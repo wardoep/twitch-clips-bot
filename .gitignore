@@ -1,0 +1,18 @@
+# secrets -- never commit
+twitch.env
+token.json
+
+# runtime state (personal data / regenerated)
+clips.db*
+watchlist.json
+posted.json
+live_subs.json
+stream_log.json
+clip_cache/
+logs/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+*.tmp
